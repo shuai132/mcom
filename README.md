@@ -1,3 +1,8 @@
+找到了个替代minicom的工具`picocom`，完结散花：`https://github.com/npat-efault/picocom
+
+截至目前(2024年10月24日)，在macOS Apple Silicon平台，一些串口工具和库（如c++ asio/rust mio-serial）对1500000等波特率支持有问题。
+进而导致minicom等软件无法在这个波特率使用。
+
 # mcom
 
 串口调试工具 简化版的minicom
